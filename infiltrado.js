@@ -40,7 +40,7 @@ function palabraReq() {
     if (http_request.readyState == 4) {
         if (http_request.status == 200) {
             text.innerHTML = http_request.responseText;
-            text.setAttribute('href', 'https://www.google.com/search?q=' + http_request.responseText);
+            text.setAttribute('href', 'https://www.google.com/search?q=rae+' + http_request.responseText);
         }
         sala.removeAttribute('disabled');
         input.removeAttribute('readonly');
