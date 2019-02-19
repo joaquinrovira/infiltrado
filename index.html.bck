@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>infiltrado</title>
+</head>
+<body> 
+    <h3>Tutorial rapidito: 
+        <br>1º - Elegir nombre de sala y darle a 'Entrar en sala'
+        <br>2º - Esperar a los demás
+        <br>3º - Una vez esta todo el mundo darle a 'Palabra'
+        <br>4º - Repetir desde el paso 1
+    </h3>
+    <textarea id="input"></textarea>
+    <button id="sala">Entrar en sala</button>
+    <button id="palabra">Palabra</button>
+    <h2><a id="text" target="_blank"></a></h2>
+    <script src="infiltrado.js"></script>
+</body>
+</html>
